@@ -2,9 +2,9 @@
 ## [Lab-01:](https://github.com/arman324/Database-Lab/blob/master/Lab-01/Lab-01.sql)
 First of all, I created a database and then created and filled tables. After that I answered 3 questions:
 1. For a student who has a student number 123, show the details of the department where he or she is studying.
-  * You can see my answer on [line number 156](https://github.com/arman324/Database-Lab/blob/a7c80a16dfd71a1a9ea29d14bc128c0388694f21/Lab-01/Lab-01.sql#L156).
+>> * You can see my answer on [line number 156](https://github.com/arman324/Database-Lab/blob/a7c80a16dfd71a1a9ea29d14bc128c0388694f21/Lab-01/Lab-01.sql#L156).
 2. Write a 'select' that adds a score to each student's grade in each lesson. 
-  * You can see my answer on [line number 162](https://github.com/arman324/Database-Lab/blob/a7c80a16dfd71a1a9ea29d14bc128c0388694f21/Lab-01/Lab-01.sql#L162).
+  + You can see my answer on [line number 162](https://github.com/arman324/Database-Lab/blob/a7c80a16dfd71a1a9ea29d14bc128c0388694f21/Lab-01/Lab-01.sql#L162).
 3. Write a query to display students who have not taken the DB course. 
   * You can see my answer on [line number 166](https://github.com/arman324/Database-Lab/blob/a7c80a16dfd71a1a9ea29d14bc128c0388694f21/Lab-01/Lab-01.sql#L166).
 
