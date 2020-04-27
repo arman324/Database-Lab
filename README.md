@@ -20,7 +20,29 @@ In this lab, I used the AdventureWorks2012 database and answered 5 questions:
 > * You can see my answer on [line number 48](https://github.com/arman324/Database-Lab/blob/4fb6523d561bcf430c16cff0f34cbf43b8bdcc4e/Lab-02/Lab-02.sql#L48).
 5. increase all employee salaries for each hour of work by 20%, 15%, 10% or 5%. Then give them a level in accordance with their salaries.
 > * You can see my answer on [line number 81](https://github.com/arman324/Database-Lab/blob/4fb6523d561bcf430c16cff0f34cbf43b8bdcc4e/Lab-02/Lab-02.sql#L81).
+## [Lab-03:](https://github.com/arman324/Database-Lab/tree/master/Lab-03)
+In this lab, I worked with "User" and "Login" in the SQL Server.
+* SQL "Login" is for Authentication:
+    * Authentication can decide if we have permission to access the **SERVER** or not.
+    * A "Login" grants the principal entry into the **SERVER**.
+* SQL server "User" is for Authorization:
+    * Authorization decides what are different operations we can do in a **DATABASE**.
+    * A "User" grants a login entry into a single **DATABASE**.
 
+I answered these questions:
+
+1. First, create a "Login" in the SQL Server.
+> * You can see my answer on [line number 1](https://github.com/arman324/Database-Lab/blob/be38dd3c3d35cedcd63ae81aad2d6ddac8f7476f/Lab-03/sa_admin.sql#L1) in the sa_admin.sql file.
+2. Create a role that has the ability to manage the database.
+> * You can see my answer on [line number 5](https://github.com/arman324/Database-Lab/blob/be38dd3c3d35cedcd63ae81aad2d6ddac8f7476f/Lab-03/sa_admin.sql#L5) in the sa_admin.sql file.
+3. Connect the role to the "Login" created in the first question.
+> * You can see my answer on [line number 14](https://github.com/arman324/Database-Lab/blob/be38dd3c3d35cedcd63ae81aad2d6ddac8f7476f/Lab-03/sa_admin.sql#L14) in the sa_admin.sql file.
+4. With the "login" created in Question 1, log in to the SQL server and then create a table in the AdventureWorks2012 database, Insert data in this table, and select data from it.
+> * You can see my answer on [line number 17](https://github.com/arman324/Database-Lab/blob/be38dd3c3d35cedcd63ae81aad2d6ddac8f7476f/Lab-03/sa_admin.sql#L17) in the sa_admin.sql file and [line number 1](https://github.com/arman324/Database-Lab/blob/be38dd3c3d35cedcd63ae81aad2d6ddac8f7476f/Lab-03/myLogin.sql#L1) in the myLogin.sql file.
+5. In the AdventureWorks2012 database, create a role called it role2 that has no access to the tables but can only manage permissions.
+> * You can see my answer on [line number 26](https://github.com/arman324/Database-Lab/blob/be38dd3c3d35cedcd63ae81aad2d6ddac8f7476f/Lab-03/sa_admin.sql#L26) in the sa_admin.sql file.
+6. Grant DataReader permission to role 2.
+> * You can see my answer on [line number 36](https://github.com/arman324/Database-Lab/blob/be38dd3c3d35cedcd63ae81aad2d6ddac8f7476f/Lab-03/sa_admin.sql#L36) in the sa_admin.sql file.
 
 ## Requirements
 * [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
