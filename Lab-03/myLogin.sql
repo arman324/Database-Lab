@@ -1,4 +1,3 @@
---question1
 use AdventureWorks2012;
 
 CREATE TABLE Departments (
@@ -18,11 +17,6 @@ select *
 from Departments
 where ID in ('CE', 'Ma', 'CH');
 
-
-
-
---question2
-select * from Person.Address;
 
 
 
