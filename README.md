@@ -48,12 +48,18 @@ I answered these questions:
 In this lab, I used the AdventureWorks2012 database and answered 2 questions:
 1. For the AdventureWorks2012, write a query that has the number of orders and the total value of the orders for each Territory along with its Territory area. Show the total number and value of orders for all Territories in one area and at the end of the report for all areas.
 * The output should be the same as the following image:
+
 <img width="482" alt="Screen Shot 2020-05-05 at 3 50 43 PM" src="https://user-images.githubusercontent.com/35253872/81061075-f314b980-8ee8-11ea-9c06-a3b8fcbee860.png">
+
 You can see my answer on [line number 1](https://github.com/arman324/Database-Lab/blob/fca51fe594a232fe411626f6d2c9714cc664e1d3/Lab-04/Lab-04.sql#L1).
+
 2. For the AdventureWorks2012, write a query that shows the number of orders and the total value of orders for each subcategory of goods along with its category. Show the number and value of orders for all subcategories in one category and at the end of the report for all categories.
 * The output should be the same as the following image:
+
 <img width="482" alt="Screen Shot 2020-05-05 at 4 03 37 PM" src="https://user-images.githubusercontent.com/35253872/81061693-0c6a3580-8eea-11ea-987e-ea8440e0b417.png">
+
 You can see my answer on [line number 32](https://github.com/arman324/Database-Lab/blob/fca51fe594a232fe411626f6d2c9714cc664e1d3/Lab-04/Lab-04.sql#L32).
+
 ## Requirements
 * [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 * [SQL Management Tools for SQL server](https://www.guru99.com/top-20-sql-management-tools.html)
