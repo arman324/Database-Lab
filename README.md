@@ -52,14 +52,16 @@ In this lab, I used the AdventureWorks2012 database and answered 2 questions:
 
 <img width="482" alt="Screen Shot 2020-05-05 at 3 50 43 PM" src="https://user-images.githubusercontent.com/35253872/81061075-f314b980-8ee8-11ea-9c06-a3b8fcbee860.png">
 
-> * You can see my answer on [line number 1](https://github.com/arman324/Database-Lab/blob/fca51fe594a232fe411626f6d2c9714cc664e1d3/Lab-04/Lab-04.sql#L1).
+> * You can see my answer on [line number 1](https://github.com/arman324/Database-Lab/blob/34ecba260affc6e1e982ee44158d78b2056c5af5/Lab-04/Lab-04.sql#L1).
+> * You can see the answer (version 2) on [line number 32](https://github.com/arman324/Database-Lab/blob/34ecba260affc6e1e982ee44158d78b2056c5af5/Lab-04/Lab-04.sql#L32).
 
 2. For the AdventureWorks2012, write a query that shows the number of orders and the total value of orders for each subcategory of goods along with its category. Show the number and value of orders for all subcategories in one category and at the end of the report for all categories.
 * The output should be the same as the following image:
 
 <img width="482" alt="Screen Shot 2020-05-05 at 4 03 37 PM" src="https://user-images.githubusercontent.com/35253872/81061693-0c6a3580-8eea-11ea-987e-ea8440e0b417.png">
 
-> * You can see my answer on [line number 71](https://github.com/arman324/Database-Lab/blob/fca51fe594a232fe411626f6d2c9714cc664e1d3/Lab-04/Lab-04.sql#L71).
+> * You can see my answer on [line number 71](https://github.com/arman324/Database-Lab/blob/34ecba260affc6e1e982ee44158d78b2056c5af5/Lab-04/Lab-04.sql#L71).
+> * You can see the answer (version 2) on [line number 121](https://github.com/arman324/Database-Lab/blob/34ecba260affc6e1e982ee44158d78b2056c5af5/Lab-04/Lab-04.sql#L121).
 
 ## Requirements
 * [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
