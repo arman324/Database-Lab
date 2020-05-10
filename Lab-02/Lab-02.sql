@@ -44,6 +44,30 @@ WITH newTable(ProductID, OrderQty, TerritoryID) AS
     where newTable.OrderQty = newtable_2.maximumNumberOfSell and newTable.ProductID = newtable_2.ProductID
     ORDER BY ProductID;
 
+-- Question3 (version 2)
+SELECT distinct tt.* 
+    FROM (
+        SELECT SOD.ProductID , SOH.TerritoryID , COUNT(OrderQty) as nProd
+        FROM Sales.SalesOrderHeader as SOH INNER JOIN
+            Sales.SalesOrderDetail as SOD on SOH.SalesOrderID = SOD.SalesOrderID
+        GROUP BY SOH.TerritoryID, SOD.ProductID)as tt
+
+    INNER JOIN
+
+    (select ProductID, max(nProd) AS maxval
+        FROM (
+            SELECT SOD.ProductID , SOH.TerritoryID , COUNT(OrderQty) as nProd
+            FROM Sales.SalesOrderHeader as SOH
+            INNER JOIN Sales.SalesOrderDetail as SOD on SOH.SalesOrderID = SOD.SalesOrderID
+            GROUP BY SOH.TerritoryID, SOD.ProductID) as f
+        Group BY ProductID) as grouptt
+
+    on tt.ProductID = grouptt.ProductID and tt.nProd = grouptt.maxval
+    ORDER BY ProductID
+
+
+
+
 
 -- Question4
 WITH mytable(SalesOrderID,OrderDate,Status,CustomerID,TerritoryID,SubTotal,TotalDue,Name, CountryRegionCode,[Group]) AS 

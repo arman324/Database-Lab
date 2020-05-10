@@ -17,9 +17,9 @@ In this lab, I used the AdventureWorks2012 database and answered 5 questions:
 3. For the AdventureWorks2012, write a query that shows which area had the most orders for each product.
 > * You can see my answer on [line number 29](https://github.com/arman324/Database-Lab/blob/4fb6523d561bcf430c16cff0f34cbf43b8bdcc4e/Lab-02/Lab-02.sql#L29).
 4. For the AdventureWorks2012, create a table called NAmerica_Sales, which is in accordance with question number 1. Add a column to this table and add a constraint to have only Low, High, or Mid values. Then update this column for each tuple to 'High' when the order cost(TotalDue) is higher than the average total cost (The cost of all orders) on the North American region. Update the column to 'Mid' if the order cost(TotalDue) is equal to the average total cost on the North American region. Finally, update the column to 'Low' when the order cost(TotalDue) is lower than the average total cost on the North American region.
-> * You can see my answer on [line number 48](https://github.com/arman324/Database-Lab/blob/4fb6523d561bcf430c16cff0f34cbf43b8bdcc4e/Lab-02/Lab-02.sql#L48).
+> * You can see my answer on [line number 72](https://github.com/arman324/Database-Lab/blob/4fb6523d561bcf430c16cff0f34cbf43b8bdcc4e/Lab-02/Lab-02.sql#L72).
 5. increase all employee salaries for each hour of work by 20%, 15%, 10% or 5%. Then give them a level in accordance with their salaries.
-> * You can see my answer on [line number 81](https://github.com/arman324/Database-Lab/blob/4fb6523d561bcf430c16cff0f34cbf43b8bdcc4e/Lab-02/Lab-02.sql#L81).
+> * You can see my answer on [line number 105](https://github.com/arman324/Database-Lab/blob/4fb6523d561bcf430c16cff0f34cbf43b8bdcc4e/Lab-02/Lab-02.sql#L105).
 ## [Lab-03:](https://github.com/arman324/Database-Lab/tree/master/Lab-03)
 In this lab, I worked with "User" and "Login" in the SQL Server.
 * SQL "Login" is for Authentication:
