@@ -58,7 +58,7 @@ In this lab, I used the AdventureWorks2012 database and answered 2 questions:
 
 <img width="482" alt="Screen Shot 2020-05-05 at 4 03 37 PM" src="https://user-images.githubusercontent.com/35253872/81061693-0c6a3580-8eea-11ea-987e-ea8440e0b417.png">
 
-> * You can see my answer on [line number 32](https://github.com/arman324/Database-Lab/blob/fca51fe594a232fe411626f6d2c9714cc664e1d3/Lab-04/Lab-04.sql#L32).
+> * You can see my answer on [line number 71](https://github.com/arman324/Database-Lab/blob/fca51fe594a232fe411626f6d2c9714cc664e1d3/Lab-04/Lab-04.sql#L71).
 
 ## Requirements
 * [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
