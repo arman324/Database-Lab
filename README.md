@@ -63,6 +63,28 @@ In this lab, I used the AdventureWorks2012 database and answered 2 questions:
 > * You can see my answer on [line number 71](https://github.com/arman324/Database-Lab/blob/34ecba260affc6e1e982ee44158d78b2056c5af5/Lab-04/Lab-04.sql#L71).
 > * You can see the answer (version 2) on [line number 121](https://github.com/arman324/Database-Lab/blob/34ecba260affc6e1e982ee44158d78b2056c5af5/Lab-04/Lab-04.sql#L121).
 
+## [Lab-05:](https://github.com/arman324/Database-Lab/blob/master/Lab-05/Lab-05.sql)
+In this lab, I used the AdventureWorks2012 database and answered 5 questions:
+1. For the AdventureWorks2012, write a query that shows all the products' names along with the number of sales of each item (Order Qty) in each region as a separate column for each product.
+> * You can see my answer on [line number 14](https://github.com/arman324/Database-Lab/blob/79122345c205ca105993a01eddf7c2c871e25995/Lab-02/Lab-02.sql#L14).
+2. For the AdventureWorks2012, modify the following code, to have the output as shown below:
+    ```sql
+    select Person.BusinessEntityID, PersonType, Gender
+    from Person.Person 
+        join HumanResources.Employee
+         on (Person.BusinessEntityID = Employee.BusinessEntityID)
+    ```
+
+<img width="189" alt="Screen Shot 2020-05-18 at 7 33 39 PM" src="https://user-images.githubusercontent.com/35253872/82228975-130f9880-993f-11ea-9f31-2e2816ad7124.png">
+
+> * You can see my answer on [line number 22](https://github.com/arman324/Database-Lab/blob/79122345c205ca105993a01eddf7c2c871e25995/Lab-02/Lab-02.sql#L22).
+3. For the AdventureWorks2012, write a query that returns all the products’ names which names are less than 11 characters long and which the 2 left character of name to the end is 'e'. (Like Freewheel)
+> * You can see my answer on [line number 29](https://github.com/arman324/Database-Lab/blob/79122345c205ca105993a01eddf7c2c871e25995/Lab-02/Lab-02.sql#L29).
+> * You can see the answer (version 2) on [line number 47](https://github.com/arman324/Database-Lab/blob/79122345c205ca105993a01eddf7c2c871e25995/Lab-02/Lab-02.sql#L47).
+4. For the AdventureWorks2012, write a function that gives an 11 character word as input, and if the form of the input is the same as YYYY/MM/DD (Like 2019/09/17) from, it returns 'September 17 2019' otherwise it returns 'Wrong format input'
+> * You can see my answer on [line number 29](https://github.com/arman324/Database-Lab/blob/79122345c205ca105993a01eddf7c2c871e25995/Lab-02/Lab-02.sql#L29).
+5. For the AdventureWorks2012, write a function that gives three inputs for the year, month, and the products’ names, and returns territories that have sold the product at least once on the desired date.
+> * You can see my answer on [line number 29](https://github.com/arman324/Database-Lab/blob/79122345c205ca105993a01eddf7c2c871e25995/Lab-02/Lab-02.sql#L29).
 ## Requirements
 * [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 * [SQL Management Tools for SQL server](https://www.guru99.com/top-20-sql-management-tools.html)
