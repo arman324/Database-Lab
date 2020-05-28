@@ -3,22 +3,30 @@ create trigger LogTable
  ON Production.Product
  AFTER DELETE, INSERT, UPDATE
  AS 
+ declare @TypeOfModify varchar(10)
     if EXISTS (select * from deleted) and EXISTS (select * from inserted)
     begin 
-            INSERT INTO Production.ProductLog (TypeOfModify,ProductID, Name, ProductNumber, MakeFlag, FinishedGoodsFlag, Color, SafetyStockLevel, ReorderPoint, StandardCost, ListPrice, Size, SizeUnitMeasureCode, WeightUnitMeasureCode, Weight, DaysToManufacture, ProductLine, Class, Style, ProductSubcategoryID, ProductModelID, SellStartDate, SellEndDate, DiscontinuedDate, rowguid, ModifiedDate) 
-            select 'UPDATE', ProductID, Name, ProductNumber, MakeFlag, FinishedGoodsFlag, Color, SafetyStockLevel, ReorderPoint, StandardCost, ListPrice, Size, SizeUnitMeasureCode, WeightUnitMeasureCode, Weight, DaysToManufacture, ProductLine, Class, Style, ProductSubcategoryID, ProductModelID, SellStartDate, SellEndDate, DiscontinuedDate, rowguid, ModifiedDate from inserted
+        SET  @TypeOfModify = 'UPDATE'
+        INSERT into Production.ProductLogs
+        select *, @TypeOfModify
+        from inserted 
+    
     end
 
    if EXISTS (select * from deleted) and NOT EXISTS (select * from inserted)
     begin 
-            INSERT INTO Production.ProductLog (TypeOfModify,ProductID, Name, ProductNumber, MakeFlag, FinishedGoodsFlag, Color, SafetyStockLevel, ReorderPoint, StandardCost, ListPrice, Size, SizeUnitMeasureCode, WeightUnitMeasureCode, Weight, DaysToManufacture, ProductLine, Class, Style, ProductSubcategoryID, ProductModelID, SellStartDate, SellEndDate, DiscontinuedDate, rowguid, ModifiedDate) 
-            select 'DELETE', ProductID, Name, ProductNumber, MakeFlag, FinishedGoodsFlag, Color, SafetyStockLevel, ReorderPoint, StandardCost, ListPrice, Size, SizeUnitMeasureCode, WeightUnitMeasureCode, Weight, DaysToManufacture, ProductLine, Class, Style, ProductSubcategoryID, ProductModelID, SellStartDate, SellEndDate, DiscontinuedDate, rowguid, ModifiedDate from deleted
+        SET @TypeOfModify = 'DELETE'
+        INSERT into Production.ProductLogs
+        select *, @TypeOfModify
+        from deleted
     end 
 
    if NOT EXISTS (select * from deleted) and EXISTS (select * from inserted)
     begin 
-           INSERT INTO Production.ProductLog (TypeOfModify,ProductID, Name, ProductNumber, MakeFlag, FinishedGoodsFlag, Color, SafetyStockLevel, ReorderPoint, StandardCost, ListPrice, Size, SizeUnitMeasureCode, WeightUnitMeasureCode, Weight, DaysToManufacture, ProductLine, Class, Style, ProductSubcategoryID, ProductModelID, SellStartDate, SellEndDate, DiscontinuedDate, rowguid, ModifiedDate) 
-           select 'INSERT', ProductID, Name, ProductNumber, MakeFlag, FinishedGoodsFlag, Color, SafetyStockLevel, ReorderPoint, StandardCost, ListPrice, Size, SizeUnitMeasureCode, WeightUnitMeasureCode, Weight, DaysToManufacture, ProductLine, Class, Style, ProductSubcategoryID, ProductModelID, SellStartDate, SellEndDate, DiscontinuedDate, rowguid, ModifiedDate from inserted
+        SET @TypeOfModify = 'INSERT'
+        INSERT into Production.ProductLogs
+        select *, @TypeOfModify
+        from inserted 
     end
 
 
