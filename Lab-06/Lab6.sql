@@ -75,7 +75,7 @@ select * from Production.CopyProductLog
 
 -- question 3
 
-ALTER PROCEDURE RecordChanges
+CREATE PROCEDURE RecordChanges
 AS
         BEGIN
                 IF (EXISTS (select * from Production.RecordChangesProductLog))
