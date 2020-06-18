@@ -1,3 +1,6 @@
+use AdventureWorks2012
+go
+
 select * from Person.Address
 
 begin TRAN

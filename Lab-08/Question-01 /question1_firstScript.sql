@@ -1,3 +1,6 @@
+use AdventureWorks2012
+go
+
 begin tran
 update Person.EmailAddress
 set EmailAddress = 'kennnnnnnnnn@adventure-works.com'

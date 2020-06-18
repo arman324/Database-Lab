@@ -1,3 +1,6 @@
+use AdventureWorks2012
+go
+
 begin TRAN
 
 select ModifiedDate

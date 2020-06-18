@@ -1,3 +1,5 @@
+use AdventureWorks2012
+go
 
 begin tran
 select ModifiedDate
