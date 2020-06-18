@@ -88,7 +88,13 @@ In this lab, I used the AdventureWorks2012 database and answered 5 questions:
 ## [Lab-06:](https://github.com/arman324/Database-Lab/tree/master/Lab-06)
 ## [Lab-07:](https://github.com/arman324/Database-Lab/tree/master/Lab-07)
 ## [Lab-08:](https://github.com/arman324/Database-Lab/tree/master/Lab-08)
-
+In this lab, I used the AdventureWorks2012 database and answered 2 questions:
+1. For the AdventureWorks2012, write a query that shows __exclusive locks__ are not compatible with the __shared locks__.
+> * First, you need to run the [first script](https://github.com/arman324/Database-Lab/blob/master/Lab-08/Question-01%20/question1_firstScript.sql) (exclusive lock), after that need to run the [second script](https://github.com/arman324/Database-Lab/blob/master/Lab-08/Question-01%20/question1_secondScript.sql) (shared lock). As you notice that the second script doesn't run therefore these two scripts are not compatible.
+2. part 1:  For the AdventureWorks2012, design a scenario for showing the __Dirty Read__ problem.
+> * First, you need to run the [first script](https://github.com/arman324/Database-Lab/blob/master/Lab-08/Question-02/Part-01/question2_part1_firstScript.sql), after that need to run the [second script](https://github.com/arman324/Database-Lab/blob/master/Lab-08/Question-02/Part-01/question2_part1_secondScript.sql).
+2. part 2:  For the AdventureWorks2012, design a scenario for showing the __Non Repeatable Read__ problem.
+> * First, you need to run the [first script](https://github.com/arman324/Database-Lab/blob/master/Lab-08/Question-02/Part-02/question2_part2_firstScript.sql), after that need to run the [second script](https://github.com/arman324/Database-Lab/blob/master/Lab-08/Question-02/Part-02/question2_part2_secondScript.sql). 
 ## Requirements
 * [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 * [SQL Management Tools for SQL server](https://www.guru99.com/top-20-sql-management-tools.html)
