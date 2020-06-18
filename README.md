@@ -84,6 +84,11 @@ In this lab, I used the AdventureWorks2012 database and answered 5 questions:
 > * You can see my answer on [line number 44](https://github.com/arman324/Database-Lab/blob/2552c730c2e7239b9fb184dccb333939a160eca9/Lab-05/Lab-05.sql#L44).
 5. For the AdventureWorks2012, write a function that gives three inputs for the year, month, and the products’ names, and returns territories that have sold the product at least once on the desired date.
 > * You can see my answer on [line number 110](https://github.com/arman324/Database-Lab/blob/2552c730c2e7239b9fb184dccb333939a160eca9/Lab-05/Lab-05.sql#L110).
+
+## [Lab-06:](https://github.com/arman324/Database-Lab/tree/master/Lab-06)
+## [Lab-07:](https://github.com/arman324/Database-Lab/tree/master/Lab-07)
+## [Lab-08:](https://github.com/arman324/Database-Lab/tree/master/Lab-08)
+
 ## Requirements
 * [SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 * [SQL Management Tools for SQL server](https://www.guru99.com/top-20-sql-management-tools.html)
