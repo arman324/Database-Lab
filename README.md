@@ -96,9 +96,16 @@ In this lab, I used the AdventureWorks2012 database and answered 3 questions:
 ## [Lab-07:](https://github.com/arman324/Database-Lab/tree/master/Lab-07)
 In this lab, I used the AdventureWorks2012 database and answered 4 questions:
 1. Using the __bcp__ command, first, make output in txt format from the <ins>SalesTerritory</ins> table so that the column separator is "l". Then use the __Bulk Insert__ command to enter this file into a table called <ins>SalesTerritoryNew</ins>.
-
-
-
+> * You can see my answer on [line number 1](https://github.com/arman324/Database-Lab/blob/346f0938194fd38dc362e6aac7b770510d0418d8/Lab-07/Lab-07.sql#L1).
+> * You can also see this [image](https://github.com/arman324/Database-Lab/blob/master/Lab-07/Question-01.png).
+2. Using the __xp_cmdshell__ or __bcp__ command, enter a list of names and IDs from the <ins>SalesTerritory</ins> table into a text file.
+> * You can see my answer on [line number 29](https://github.com/arman324/Database-Lab/blob/346f0938194fd38dc362e6aac7b770510d0418d8/Lab-07/Lab-07.sql#L29).
+> * You can also see this [image](https://github.com/arman324/Database-Lab/blob/master/Lab-07/Question-02.png).
+3. With the __bcp__ command, enter the <ins>Production.Location</ins> table information into a file called location.dat.
+> * You can see my answer on [line number 34](https://github.com/arman324/Database-Lab/blob/346f0938194fd38dc362e6aac7b770510d0418d8/Lab-07/Lab-07.sql#L34).
+> * You can also see this [image](https://github.com/arman324/Database-Lab/blob/master/Lab-07/Question-03.png).
+4. Write a query for the <ins>Sales.Store</ins> table that displays the names of AdventureWorks's product stores along with 3 fields of annual sales, store opening year, and store staff. Save the result to a text file. (except the store name, other fields should be displayed in __XML__.)
+> * You can see my answer on [line number 39](https://github.com/arman324/Database-Lab/blob/346f0938194fd38dc362e6aac7b770510d0418d8/Lab-07/Lab-07.sql#L39).
 ## [Lab-08:](https://github.com/arman324/Database-Lab/tree/master/Lab-08)
 In this lab, I used the AdventureWorks2012 database and answered 2 questions:
 1. For the AdventureWorks2012, write a query that shows __exclusive locks__ are not compatible with the __shared locks__.
