@@ -86,6 +86,13 @@ In this lab, I used the AdventureWorks2012 database and answered 5 questions:
 > * You can see my answer on [line number 110](https://github.com/arman324/Database-Lab/blob/2552c730c2e7239b9fb184dccb333939a160eca9/Lab-05/Lab-05.sql#L110).
 
 ## [Lab-06:](https://github.com/arman324/Database-Lab/tree/master/Lab-06)
+In this lab, I used the AdventureWorks2012 database and answered 3 questions:
+1. Write a trigger for AdventureWorks2012 to save all non-structural changes (update, delete, and insert) of products in the ProductLogs table. This table has an additional field that indicates the type of change (like update, insert, delete)
+> * You can see my answer on [line number 1](https://github.com/arman324/Database-Lab/blob/d2f0a9f6ea2ac36ef30ac3fbb723c3b35d9fc072/Lab-06/Lab6.sql#L1).
+2. Make a copy of the ProductLogs table and change some records.
+> * You can see my answer on [line number 57](https://github.com/arman324/Database-Lab/blob/d2f0a9f6ea2ac36ef30ac3fbb723c3b35d9fc072/Lab-06/Lab6.sql#L57).
+3. Write a procedure that compares Table of question 1 and Table of question 2 and inserts records from Table 1 that are different from table 2 into a new table.
+> * You can see my answer on [line number 76](https://github.com/arman324/Database-Lab/blob/d2f0a9f6ea2ac36ef30ac3fbb723c3b35d9fc072/Lab-06/Lab6.sql#L76).
 ## [Lab-07:](https://github.com/arman324/Database-Lab/tree/master/Lab-07)
 ## [Lab-08:](https://github.com/arman324/Database-Lab/tree/master/Lab-08)
 In this lab, I used the AdventureWorks2012 database and answered 2 questions:
